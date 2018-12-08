@@ -10,6 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font: normal 100%/1.3 sans-serif;
 }
 
 *, *::before, *::after {
@@ -18,6 +19,10 @@ html {
 
 body {
   margin: 0;
+}
+
+header {
+  position: relative;
 }
 
 header h1 {
@@ -38,10 +43,63 @@ main {
   overflow: hidden;
 }
 
-.img {
-  max-width: 10em;
+header nav {
+  background-color: #cfcfcf;
+}
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header li {
   list-style-type: none;
+  width: 50%;
+}
+
+header nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Sec.1 styling */
+
+.card {
+  display: flex;
+  margin-bottom: 1.3rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.text {
+  padding-left: 1.3rem;
+}
+.one h3 {
+  margin: 0;
+}
+
+.one p {
+  margin-top: 0;
+}
+
+.img {
+  max-width: 10em;
+}
+
+/* Footer styling */
+
+footer {
+  display: block;
+  width: 100%;
+  background-color: #cfcfcf;
+  text-align: center;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
 }

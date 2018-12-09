@@ -62,7 +62,7 @@ header nav a {
   text-decoration: none;
 }
 
-/* Sec.1 styling */
+/* Sec 1 styling */
 
 .card {
   display: flex;
@@ -84,6 +84,12 @@ header nav a {
 
 .img {
   max-width: 10em;
+}
+
+/* Sec 3 styling */
+dd, dt {
+  display: inline-block;
+  width: 35%;
 }
 
 /* Footer styling */
